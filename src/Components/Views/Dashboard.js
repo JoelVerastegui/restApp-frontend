@@ -34,7 +34,7 @@ function Dashboard() {
 
     useEffect(() => {
         setMenuHeight(window.getComputedStyle(document.getElementById('menuBar')).height);
-    }, [])
+    },[])
 
     function showDetail(bool) {
         // document.getElementById('detailTab').velocity({ right: 0 },{ duration: 200 })
